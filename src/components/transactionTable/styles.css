@@ -1,0 +1,21 @@
+.phoneMode {
+  display: none !important;
+}
+@media screen and (max-width: 800px) {
+  .phoneMode {
+    display: block !important;
+    margin-left: 15px;
+  }
+  .phoneMode :focus {
+    outline: none;
+  }
+  .phonemode-radio {
+    display: none !important;
+  }
+  .mytransaction {
+    font-size: 1rem;
+  }
+  .table-top {
+    gap: 1rem !important;
+  }
+}
